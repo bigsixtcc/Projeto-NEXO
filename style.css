@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
 
 /* Scroll suave */
@@ -9,15 +9,13 @@ html {
     scroll-behavior: smooth;
 }
 
-
-
 .button{
-    color: #1D9E75;
+    color: #006199;
     display: inline-block;
     font-size: 14px;
     padding: 20px 25px;
     border-radius: 6px;
-    background-color: white;
+    background-color: #ffffff;
     justify-content: center;/* horizontal */
     align-items: center;    /* vertical */
     width: fit-content;
@@ -26,83 +24,28 @@ html {
 
 .button a{
     text-decoration: none;
-    color: #1D9E75;
+    color: #006199;
 }
 
-.button-accept{
+.button-acesso{
     color: white;
     display: inline-block;
     font-size: 14px;
     padding: 20px 25px;
     border-radius: 6px;
-    background-color: #1D9E75;
+    background-color: #006199;
     justify-content: center;/* horizontal */
     align-items: center;    /* vertical */
     width: fit-content;
 }
 
-.button-accept a{
+.button-acesso a{
     text-decoration: none;
     color: white;
-}
-
-/*---------------------------------------------NAVBAR---------------------------------------------*/
-.navbar{
-    top: 0;
-    width: 100%;
-    height: 50px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 20px;
-    background-color: #1e1e2f;
-    justify-content: space-between;
-    z-index: 1000;
-}
-
-.logo{
-    display: flex;
-    margin-left: 20px;
-    color: white;
-    font-size: 1.5rem;
-    font-weight: bold;
-}
-
-.nav-links{
-    gap: 50px;
-    display: flex;
-    color: white;
-    list-style: none;
-    font-weight: bold;
-    margin-right: 45px;
-}
-
-.nav-links a {
-    color: white;
-    text-decoration: none;
-    transition: 0.3s;
-}
-
-.nav-links a:hover {
-    color: #00bcd4;
-}
-
-/*---------------------------------------------HOME---------------------------------------------*/
-
-.btn-info{
-    color: #1D9E75;
-    display: inline-block;
-    font-size: 14px;
-    padding: 4px 10px;
-    border-radius: 6px;
-    background-color: #E1F5EE;
-    justify-content: center;/* horizontal */
-    align-items: center;    /* vertical */
-    width: fit-content;
 }
 
 .info{
-  display: flex;              /* coloca lado a lado */
+  display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 50px;
@@ -127,9 +70,9 @@ html {
   width: 50%;
   border-radius: 10px;
   display: flex;
-  flex-direction: column;     /* itens um embaixo do outro */
+  flex-direction: column;
   gap: 10px;
-  background-color: #E1F5EE;
+  background-color: #d4efff;
   backdrop-filter: blur(10px);
   padding: 20px;
 }
@@ -140,14 +83,14 @@ html {
     font-size: 14px;
     padding: 4px 10px;
     border-radius: 6px;
-    background-color: #1D9E75;
-    justify-content: center;/* horizontal */
-    align-items: center;    /* vertical */
+    background-color: #006199;
+    justify-content: center;
+    align-items: center;
     width: fit-content;
 }
 
 .item{
-  display: flex;              /* coloca lado a lado */
+  display: flex;
   gap: 50px;
   align-items: center;
   padding: 20px;
@@ -156,12 +99,8 @@ html {
   transition: 0.3s;
 }
 
-.item:hover{
-    transform: translateY(-5px);
-}
-
-.icon{
-    background-color:#E1F5EE;
+.icone{
+    background-color:#d4efff;
     padding: 15px;
     font-size: 28px;
     border-radius: 10px;
@@ -169,7 +108,7 @@ html {
 
 .item-txt{
   display: flex; 
-  flex-direction: column;             /* coloca lado a lado */
+  flex-direction: column;
   
 }
 
@@ -182,7 +121,7 @@ html {
     color: grey;
 }
 
-.btns-item{
+.button-item {
     margin-left: 50px;
     margin-bottom: 40px;
 }
@@ -193,43 +132,39 @@ html {
   background-color: #f5f5f5;
 }
 
-.subtitle {
-  color: #1D9E75;
-  font-size: 12px;
+.subtitulo {
+  color: #006199;
+  font-size: 15px;
   letter-spacing: 2px;
   margin-bottom: 10px;
 }
 
-.title {
+.titulo {
   font-size: 42px;
   margin-bottom: 40px;
   color: #111;
 }
 
-/* GRID DOS CARDS */
-.cards {
+/* Grid das Cartas */
+.cartas {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 25px;
 }
 
-/* CARD */
-.card {
+/* Carta */
+.carta {
   background: #e9e9e9;
   padding: 25px;
   border-radius: 15px;
   transition: 0.3s;
 }
 
-.card:hover {
-  transform: translateY(-5px);
-}
-
-/* ÍCONE */
-.icon {
+/* Ícone das cartas */
+.icone {
   width: 50px;
   height: 50px;
-  background: #d7ebe4;
+  background: #d4efff;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -238,13 +173,13 @@ html {
   margin-bottom: 15px;
 }
 
-/* TEXTO */
-.card h3 {
+/* Texto das Cartas */
+.carta h3 {
   margin-bottom: 10px;
   font-size: 18px;
 }
 
-.card p {
+.carta p {
   color: #555;
   font-size: 14px;
   line-height: 1.5;

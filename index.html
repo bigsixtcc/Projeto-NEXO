@@ -1,79 +1,71 @@
-    <!DOCTYPE html>
-    <html lang="en">
+<!DOCTYPE html>
+  <html lang="pt-br">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
-        <title>Document</title>
+        <link rel="stylesheet" href="style.css"> <!-- Folha de estilo padrão -->
+        <link rel="stylesheet" href="navbar.css"> <!-- Folha de estilo da Navbar -->
+        <link rel="icon" type="image/x-icon" href="X.png"> <!-- Ícone da página -->
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet"> <!-- Fonte Quicksand -->
+        <title>Nexo - Início</title>
     </head>
     <body>
-
-        <nav class="navbar">
-            <div class="logo">Nexo</div>
-            
-            <ul class="nav-links">
-            <li><a href="#home">Início</a></li>
-            <li><a href="about.html">Sobre nós</a></li>
-            <li><a href="products.html">Produtos</a></li>
-            <li><a href="blog.html">Blog</a></li>
-            <li><a href="contact.html">Contato</a></li>
-            </ul>
-        </nav>
+        <div id="navbar"></div>
+        <script src="navbar.js"></script>
 
         <section id="home" class="section">
 
             <div class="info">
                 <div class="titulo-info">
-                <div class="btn-info">Plataforma de intermediação de serviços</div>
                 <h1>Conecte-se a quem realmente entrega resultados</h1>
                 <p>A Nexo é a ponte inteligente entre prestadores verificados e empresas, associações ou pessoas físicas que precisam de serviços com confiança e agilidade.</p>
                 </div>
                 
                 <div class="dashboard-itens">
-                    <div class="btn-info-item">Conexão ativa</div>
+                    <div class="btn-info-item">Conexão entre:</div>
 
                     <div class="item">
-                        <div class="icon">🔧</div>
+                        <div class="icone"><img src="prestador.png" alt="Prestador"></div>
                         <div class="item-txt">
                         <h4>Prestador</h4>
-                        <p>Prestador verificado 🌟</p>
+                        <p>Profissionais com identidade e experiência validadas, prontos para entregar serviços com mais qualidade, segurança e confiabilidade.</p>
                         </div>
                     </div>
 
                     <div class="item">
-                        <div class="icon">🏭</div>
+                        <div class="icone"><img src="empresa.png" alt="Empresa"></div>
                         <div class="item-txt">
                         <h4>Contratante</h4>
-                        <p>Empresa verificada 🌟</p>
+                        <p>Contratantes autenticados na plataforma, garantindo oportunidades reais e relações mais transparentes desde o primeiro contato.</p>
                         </div>
                     </div>
 
                     <div class="item">
-                        <div class="icon">👍</div>
+                        <div class="icone"><img src="cliente.png" alt="Cliente"></div>
                         <div class="item-txt">
-                        <h4>Segurança</h4>
-                        <p>Pagamento garantido pela plataforma e seguro 🌟</p>
+                        <h4>Cliente</h4>
+                        <p>Do início ao fim, você conta com pagamentos protegidos, suporte dedicado e a tranquilidade de contratar com mais confiança e menos risco.</p>
                         </div>
                     </div>
                 </div>
             
             </div>
 
-            <div class="btns-item">
-            <div class="button-accept"><a href="#">Explorar plataforma</a></div>
-            <div class="button"><a href="#">Sobre a empresa</a></div>
+            <div class="button-item">
+            <div class="button-acesso"><a href="#">Acessar plataforma</a></div> <!-- Plataforma ainda em desenvolvimento -->
+            <div class="button"><a href="sobre.html">Sobre a empresa</a></div>
             </div>
             
 
 
             <section class="features">
-  <p class="subtitle">POR QUE A NEXOLINK</p>
-  <h2 class="title">Tudo que você precisa em um só lugar</h2>
+  <p class="subtitulo"><b>POR QUE USAR A NEXO</b></p>
+  <h2 class="titulo">Tudo que você precisa em um só lugar</h2>
 
-  <div class="cards">
+  <div class="cartas">
 
-    <div class="card">
-      <div class="icon">🛡️</div>
+    <div class="carta">
+      <div class="icone"><img src="escudo.png" alt="Escudo"></div>
       <h3>Perfis auditados</h3>
       <p>
         Todos os prestadores passam por verificação de documentos,
@@ -81,8 +73,8 @@
       </p>
     </div>
 
-    <div class="card">
-      <div class="icon">💳</div>
+    <div class="carta">
+      <div class="icone"><img src="cartao.png" alt="Cartão"></div>
       <h3>Pagamento protegido</h3>
       <p>
         O valor fica retido na plataforma e só é liberado após a confirmação da entrega,
@@ -90,26 +82,26 @@
       </p>
     </div>
 
-    <div class="card">
-      <div class="icon">⚡</div>
-      <h3>Match inteligente</h3>
+    <div class="carta">
+      <div class="icone"><img src="conexao.png" alt="Conexões"></div>
+      <h3>Conexão inteligente</h3>
       <p>
-        Nosso algoritmo conecta sua demanda ao prestador mais adequado em menos de 5 minutos,
-        economizando tempo e recursos.
+        Nosso algoritmo conecta sua demanda para diversos prestadores diferentes,
+        para selecionar o profissional de sua preferencia.
       </p>
     </div>
 
-    <div class="card">
-      <div class="icon">📊</div>
+    <div class="carta">
+      <div class="icone"><img src="grafico.png" alt="Gráfico"></div>
       <h3>Gestão completa</h3>
       <p>
-        Dashboard com histórico de contratos, avaliações, relatórios e métricas em tempo real
-        para empresas e associações.
+        Relatório com histórico de contratos, avaliações, e métricas em tempo real
+        para empresas ou clientes.
       </p>
     </div>
 
-    <div class="card">
-      <div class="icon">⭐</div>
+    <div class="carta">
+      <div class="icone"><img src="estrela.png" alt="Estrela"></div>
       <h3>Reputação real</h3>
       <p>
         Sistema de avaliações verificadas que incentiva a qualidade e permite tomar decisões
@@ -117,8 +109,8 @@
       </p>
     </div>
 
-    <div class="card">
-      <div class="icon">🌐</div>
+    <div class="carta">
+      <div class="icone"><img src="tablet.png" alt="Tablet"></div>
       <h3>Multiplataforma</h3>
       <p>
         Acesse pelo navegador, app Android ou iOS. Tudo sincronizado em tempo real onde você estiver.
@@ -126,25 +118,14 @@
     </div>
 
   </div>
-</section>
-            
-        </section>
-
-        <section id="about" class="section">
-
-        </section>
-
-        <section id="products" class="section">
-
-        </section>
-        
-        <section id="blog" class="section">
-
-        </section>
-
-        <section id="contact" class="section">
-
-        </section>
-
-    </body>
-    </html>
+  </body>
+</html>
+<!-- <a href="https://www.flaticon.com/br/icones-gratis/cliente" title="cliente ícones">Cliente ícones criados por Freepik - Flaticon</a> -->
+<!-- <a href="https://www.flaticon.com/br/icones-gratis/edificios" title="edifícios ícones">Edifícios ícones criados por Freepik - Flaticon</a> -->
+<!-- <a href="https://www.flaticon.com/br/icones-gratis/chave-de-boca-ajustavel" title="chave-de-boca-ajustavel ícones">Chave-de-boca-ajustavel ícones criados por Freepik - Flaticon</a> -->
+<!-- <a href="https://www.flaticon.com/br/icones-gratis/escudo" title="escudo ícones">Escudo ícones criados por Freepik - Flaticon</a> -->
+<!-- <a href="https://www.flaticon.com/free-icons/credit-card" title="credit card icons">Credit card icons created by Pixel perfect - Flaticon</a> -->
+<!-- <a href="https://www.flaticon.com/free-icons/connections" title="connections icons">Connections icons created by Smashicons - Flaticon</a> -->
+<!-- <a href="https://www.flaticon.com/free-icons/star" title="star icons">Star icons created by Pixel perfect - Flaticon</a> -->
+<!-- <a href="https://www.flaticon.com/free-icons/pie-chart" title="pie chart icons">Pie chart icons created by Pixel perfect - Flaticon</a> -->
+<!-- <a href="https://www.flaticon.com/free-icons/computer" title="computer icons">Computer icons created by DinosoftLabs - Flaticon</a> -->
